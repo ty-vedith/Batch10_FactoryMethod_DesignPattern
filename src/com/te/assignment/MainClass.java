@@ -16,7 +16,7 @@ public class MainClass {
 
 		Plan p = gp.getPlan(planType);
 		p.setRate();
-		p.generateBill(units);
+		System.out.println(p.generateBill(units));
 
 	}
 

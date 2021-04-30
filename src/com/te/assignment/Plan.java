@@ -6,8 +6,7 @@ public abstract class Plan {
 	public abstract void setRate();
 	
 	public float generateBill(float units) {
-		System.out.println(rate);
-		System.out.println(units);
+
 		return rate*units;
 	}
 }
